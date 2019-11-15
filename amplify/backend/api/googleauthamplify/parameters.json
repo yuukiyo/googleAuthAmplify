@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "googleauthamplify",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authgoogleauthamplify99b629a2",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

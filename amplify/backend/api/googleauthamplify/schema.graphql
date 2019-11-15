@@ -1,0 +1,5 @@
+type Pizza @model {
+  id: ID!
+  username: String!
+  price: String
+}
